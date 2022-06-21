@@ -9,7 +9,7 @@
     <script src="./js/aframe/aframe.min.js"></script>
     <!-- Library untuk AR yang melakukan pengenalan marker dan menyematkan kamera-->
     <script src="./js/arjs/aframe-ar.js"></script>
-    <title>WebAR: Multiple Marker</title>
+    <title>WebAR: Multiple Marker Lutfiah Agustin</title>
     <style>
         /* Mengatur posisi elemen pada halaman */
         
@@ -47,20 +47,20 @@
 
 <body style="margin : 0px; overflow: hidden;">
     <!-- UI Element outside a-scene -->
-    <div id="UI">Marker information here.</div>
+    <div id="UI"> Lutfiah Agustin H - Marker information here.</div>
 
     <a-scene embedded vr-mode-ui="enabled: false" arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3; debugUIEnabled: true;">
         <!-- create assets -->
         <a-assets timeout="900000">
            
-            <a-asset-item id="robot" src="./assets/robot_playground/scene.gltf"></a-asset-item>
+            <a-asset-item id="robot" src="./assets/acanthus_draft/scene.gltf"></a-asset-item>
         
             <a-asset-item id="exoItalicFont" src="https://cdn.glitch.com/c719c986-c0c5-48b8-967c-3cd8b8aa17f3%2Fexo2BlackItalic.typeface.json?1490305922725"></a-asset-item>
         </a-assets>
 
         <!-- handle hiro marker -->
         <a-marker preset="hiro">
-          <a-entity gltf-model="#robot" animation-mixer></a-entity>
+          <a-entity gltf-model="#robot" scale="0.5 0.5 0.5" animation-mixer ></a-entity>
         </a-marker>
 
         <!-- handle matrix marker -->
@@ -72,7 +72,7 @@
 
         <!-- handle kanji marker -->
         <a-marker preset="kanji">
-            <a-entity gltf-model="#robot"></a-entity>
+            <a-entity gltf-model="#robot" scale="0.5 0.5 0.5"></a-entity>
         </a-marker>
 
         <!-- add a simple camera -->
