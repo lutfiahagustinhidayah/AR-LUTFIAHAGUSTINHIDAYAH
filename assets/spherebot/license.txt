@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spherebot
+* source:	https://sketchfab.com/3d-models/spherebot-17baf2bd295f460a924e62854ced1427
+* author:	Bastien Genbrugge (https://sketchfab.com/bastienBGR)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spherebot" (https://sketchfab.com/3d-models/spherebot-17baf2bd295f460a924e62854ced1427) by Bastien Genbrugge (https://sketchfab.com/bastienBGR) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
